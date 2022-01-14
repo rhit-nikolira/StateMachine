@@ -1,4 +1,4 @@
-package statemachines;
+
 
 public class Transition {
 	public int state;
