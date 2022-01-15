@@ -32,7 +32,7 @@ public class Main {
 	
 	private static void testMachine(StateMachine stateMachine, List<Character> testCase) {
 		boolean result;
-		System.out.println("Running "+stateMachine.getClass().getSimpleName()+" on " + testCase);
+		System.out.println("Running " + stateMachine.getClass().getSimpleName()+" on " + testCase);
 
 
 		result = stateMachine.accept(testCase);

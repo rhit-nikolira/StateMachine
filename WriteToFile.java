@@ -6,8 +6,6 @@ public class WriteToFile implements SideEffect{
 
     @Override
     public <T> void doSideEffect(T currItem, T state, T finalState) {
-        // FIXME: this list of state transition side effects keeps growing!
-        // Note: *only one* side effect executes per transition.
         try(PrintStream out = new PrintStream(new FileOutputStream("log.txt", true))){
             if (state.equals('A')) {
                 if (currItem.equals('A')) {
