@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import statemachines.FindAbcAndPrintThings;
+import statemachines.StateMachine;
+import statemachines.SumOfDigitsEquals3;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -27,6 +31,7 @@ public class Main {
 			testMachine(stateMachine, digitsTestCase);
 			
 			System.out.println();
+
 		}
 	}
 	
